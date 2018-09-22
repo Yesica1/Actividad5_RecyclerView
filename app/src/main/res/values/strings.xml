@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Actividad5_RecyclerView</string>
+    <string name="titulo">DATOS DE USUARIOS</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Dimensiones implementadas en el código-->
+    <dimen name="textsize_20sp">20sp</dimen>
+    <dimen name="margintop_25dp">25dp</dimen>
+
+</resources>

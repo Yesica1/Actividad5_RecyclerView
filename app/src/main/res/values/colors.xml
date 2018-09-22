@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Colores empleados en el diseño de la aplicacion -->
+    <color name="colorPrimary">#64a6ff</color>
+    <color name="colorPrimaryDark">#0d8dd7</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+
+</resources>

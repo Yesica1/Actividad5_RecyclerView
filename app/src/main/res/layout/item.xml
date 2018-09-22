@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margintop_25dp"
+    android:orientation="vertical">
+
+    <!--TextView donde se almacenará el nombre del usuario-->
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/textsize_20sp"
+        android:textColor="@color/black"/>
+
+    <!--TextView donde se almacenará el apellido del usuario-->
+    <TextView
+        android:id="@+id/apellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/textsize_20sp"
+        android:textColor="@color/black"/>
+
+    <!--TextView donde se almacenará la edad del usuario-->
+    <TextView
+        android:id="@+id/edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/textsize_20sp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
