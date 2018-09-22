@@ -7,14 +7,14 @@ public class Usuario
     private String apellidos;
     private int edad;
 
-    //Constructor
+    //Constructor no puede ser private porque sino no se podrá implementar en el main activity
     public Usuario(String nombre, String apellidos,  int edad) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.edad = edad;
     }
 
-    //Get y set de cada una de las variables
+    //Get y Set de cada una de las variables
     public String getNombre() {
         return nombre;
     }

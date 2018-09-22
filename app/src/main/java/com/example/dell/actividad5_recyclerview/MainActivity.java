@@ -30,13 +30,11 @@ public class MainActivity extends AppCompatActivity {
         recyclerView_datos.setItemAnimator(new DefaultItemAnimator());
         recyclerView_datos.setAdapter(userAdapter);
 
-        prepareUserData();
-
-
+        datosUsuario();
 
     }
 
-    private void prepareUserData()
+    private void datosUsuario()
     {
 
         Usuario usuario = new Usuario("Yesica Lizbeth", "Aldape García", 19);

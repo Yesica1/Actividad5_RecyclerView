@@ -24,7 +24,7 @@ public class UsuarioAdapter extends RecyclerView.Adapter<UsuarioAdapter.MyViewHo
         }
     }
 
-
+    //No puede ser private porque se utiliza dicho constructor
     public UsuarioAdapter(ArrayList<Usuario> usuarioList) {
         this.usuarioList = usuarioList;
     }
